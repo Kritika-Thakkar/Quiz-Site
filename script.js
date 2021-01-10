@@ -60,14 +60,22 @@ function loadQuiz() {
 
 }
 
+function getSelected() {
+    const answers = document.querySelectorAll("answer");
+    answers.forEach((answer) => {
+        console.log(answer.value);
+    });
+}
+
 submitBtn.addEventListener('click', () => {
     currentQuiz++;
 
     if(currentQuiz < quizData.length) {
         loadQuiz();
     } else {
+        // show results
         alert("The quiz is completed! Get yourself a lemonade!");
     }
 
-    loadQuiz();
+
 });
