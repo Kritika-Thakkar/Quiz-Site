@@ -5,23 +5,24 @@
         <meta name="viewport" content="width=device-width, initial-scale =1.0">
         <title>Quiz-site</title>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+
     </head>
     <body>
         <h1></h1>
         <div class="quiz-container">
             <div class="quiz-header">
-                <h2>Question Text</h2>
+                <h2 id="question">Question Text</h2>
                 <ul>
-                    <li><input type="radio" id="a" name="answer"><label for="a">option</label></li>
-                    <li><input type="radio" id="b" name="answer"><label for="b">option</label></li>
-                    <li><input type="radio" id="c" name="answer"><label for="c">option</label></li>
-                    <li><input type="radio" id="d" name="answer"><label for="d">option</label></li>
+                    <li><input type="radio" id="a" name="answer"><label id="a_text" for="a">option</label></li>
+                    <li><input type="radio" id="b" name="answer"><label id="b_text" for="b">option</label></li>
+                    <li><input type="radio" id="c" name="answer"><label id="c_text" for="c">option</label></li>
+                    <li><input type="radio" id="d" name="answer"><label id="d_text" for="d">option</label></li>
                 </ul>
             </div>
-                <button>Next!</button>
+                <button id="submit">Next!</button>
         </div>
     </body>
+    <script src="script.js"></script>
 </html>
 
 
