@@ -4,7 +4,7 @@ const quizData = [
         a: 'June 11th',
         b: 'Alien?',
         c: 'Jan 27',
-        d: 'May 5',
+        d: 'May 05',
         correct: 'c',
     }, {
         question: "What is Kritika's favourite color?",
