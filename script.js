@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "When is Kritka's birthday?",
+        question: "When is Kritika's birthday?",
         a: 'June 11th',
         b: 'Alien?',
         c: 'Jan 27',
@@ -102,7 +102,7 @@ submitBtn.addEventListener('click', () => {
             loadQuiz();
         } else {
             quiz.innerHTML = `<h2>You have answered ${score} correctly out of ${quizData.length} questions.</h2>
-            <button onclick = "location.reload">Do it again?</button>`;
+            <button onclick = "location.reload()" >Do it again?</button>`;
         }
     }
 
